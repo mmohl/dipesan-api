@@ -1,0 +1,17 @@
+{
+    "name": "root/webapi",
+    "description": "Framework Web Api",
+    "type": "project",
+    "authors": [
+        {
+            "name": "mmohl",
+            "email": "mmohammadl.lpkia@gmail.com"
+        }
+    ],
+    "require": {
+        "slim/slim": "^3.0",
+        "firebase/php-jwt": "^4.0",
+        "illuminate/database": "^5.3",
+        "psr/log": "^1.0"
+    }
+}
