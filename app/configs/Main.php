@@ -22,4 +22,4 @@
   };
 
   // include routing setting
-  require __DIR__ . '/Routes.php';
+  require __DIR__ . DIRECTORY_SEPARATOR .'Routes.php';
