@@ -3,7 +3,8 @@
 namespace App\Controllers;
 
 use \Firebase\JWT\JWT;
-use App\Helpers\Custom;
+use \App\Helpers\Custom;
+use App\Models;
 
 class AuthController extends Controller
 {
@@ -11,7 +12,7 @@ class AuthController extends Controller
 
   public function index()
   {
-    return var_dump($this->db->table('rbac_roles')->find(1));
+    parent::generateDummy(new Custom);
   }
 
   public function setToken()

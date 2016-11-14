@@ -4,11 +4,6 @@ namespace App\Helpers;
 
 class Custom 
 {
-
-	public function __construct() 
-	{
-		
-	}
 	
 	/*
 	 * Membuat Angka menjadi text terbilang
