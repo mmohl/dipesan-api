@@ -11,7 +11,7 @@ class AuthController extends Controller
 
   public function index()
   {
-    return var_dump($this->container->request);
+    return var_dump($this->db->table('rbac_roles')->find(1));
   }
 
   public function setToken()

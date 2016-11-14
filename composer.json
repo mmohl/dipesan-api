@@ -1,6 +1,6 @@
 {
-    "name": "root/webapi",
-    "description": "Framework Web Api",
+    "name": "dipesan webapi",
+    "description": "Web Api untuk dipesan.com",
     "type": "project",
     "authors": [
         {
